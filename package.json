@@ -1,0 +1,36 @@
+{
+  "name": "nodeflow",
+  "description": "BPMN 2.0 execution engine",
+  "version": "0.0.1",
+  "author": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "bpmn",
+    "workflow",
+    "process",
+    "automation",
+    "nodejs"
+  ],
+  "devDependencies": {
+    "lab": "^3.2.1"
+  },
+  "dependencies": {
+    "xmldom": "^0.1.19",
+    "async": "^0.8.0",
+    "node-uuid": "^1.4.1",
+    "hoek": "^2.1.1",
+    "joi": "^4.3.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": ""
+    }
+  ]
+}
